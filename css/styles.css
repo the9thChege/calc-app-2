@@ -1,0 +1,30 @@
+.mathematic{
+  text-align: center;
+  margin-right: 500px;
+  margin-left: 500px;
+  color: azure;
+}
+
+body{
+  background-color: #1d3b69;
+}
+
+h1{
+  color: yellow;
+}
+
+label{
+  color: pink;
+}
+
+.btn{
+  text-align: center;
+  margin-left: 50px;
+}
+
+#output{
+  margin-left: 200px;
+  color: #e1fe34;
+  font-size: 50px;
+  text-decoration: underline;
+}
