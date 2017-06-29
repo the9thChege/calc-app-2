@@ -1,5 +1,16 @@
 $(document).ready(function() {
 
+  $("#calculator").click(function(event){
+    $("#calc").show();
+    $(".begin-div").hide();
+  });
+
+  $(".backbtn").click(function(event){
+    $("#calc").hide();
+    $(".begin-div").show();
+    $("#output").hide();
+  });
+
   $('#add').click(function(event) {
     event.preventDefault();
     var number1 = parseInt($("#num1").val());

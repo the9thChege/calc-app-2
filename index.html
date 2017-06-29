@@ -11,24 +11,30 @@
 </head>
 
 <body>
-  <h1>Calculator</h1>
+  <div class="begin-div container-fluid">
+    <button type="button" class="begin btn btn-success" id="pingPong">PING PONG</button>
+    <button type="button" class="begin btn btn-danger" id="calculator">CALCULATOR</button>
+  </div>
+
   <form id="calc">
+    <button type="button" class="backbtn btn-info">Back to Selection</button>
+    <h1>Calculator</h1>
     <div class="form-group">
       <label for="num1">1st number:</label>
       <input id="num1" class="form-control" type="text">
     </div>
 
-<div class="container">
-  <div class="dropdown">
-    <button class="dropdown" type="button" id="mainButton">Choose Operation</button>
-    <div class="dropdown-content">
-      <li id="add">ADD</li>
-      <li id="subtract">SUBTRACT</li>
-      <li id="divide">DIVIDE</li>
-      <li id="multiply">MULTIPLY</li>
+    <div class="container">
+      <div class="dropdown">
+        <button class="dropdown" type="button" id="mainButton">Choose Operation</button>
+        <div class="dropdown-content">
+          <li id="add">ADD</li>
+          <li id="subtract">SUBTRACT</li>
+          <li id="divide">DIVIDE</li>
+          <li id="multiply">MULTIPLY</li>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
     <div class="form-group">
       <label for="num2">2nd number:</label>
